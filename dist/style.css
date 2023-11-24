@@ -253,6 +253,12 @@ button:hover,
   background-position: center center;
   min-height: 17.5rem;
 }
+@media (min-width: 40em) {
+  .hero__image {
+    min-height: 25rem;
+    background-position: center 60%;
+  }
+}
 @media (min-width: 64em) {
   .hero__image {
     flex: 3;
@@ -261,19 +267,18 @@ button:hover,
     background-image: none;
   }
 }
-.hero__image::before {
-  content: "";
-  position: absolute;
-  background-image: url(/images/bg-intro-desktop.svg);
-  background-size: 93%;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  height: 100%;
-  width: 100%;
-}
 @media (min-width: 64em) {
   .hero__image::before {
+    content: "";
+    position: absolute;
+    background-image: url(/images/bg-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 100%;
     width: 150%;
+    background-size: 122%;
+    background-repeat: no-repeat;
+    background-position: 0% 83%;
   }
 }
 .hero__image::after {
@@ -285,6 +290,20 @@ button:hover,
   background-position: center bottom;
   height: 100%;
   width: 100%;
+}
+@media (min-width: 40em) {
+  .hero__image::after {
+    background-size: 52%;
+  }
+}
+@media (min-width: 64em) {
+  .hero__image::after {
+    width: 120%;
+    height: 122%;
+    background-size: 94%;
+    background-position: center 150%;
+    left: 22%;
+  }
 }
 .hero__text {
   text-align: center;
@@ -311,4 +330,24 @@ button:hover,
 .hero__text p {
   line-height: 1.5;
   margin-bottom: 2.25rem;
+}
+
+@media (min-width: 40em) {
+  .feature__grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.feature__item {
+  padding: 0.9375rem;
+}
+@media (min-width: 40em) {
+  .feature__item {
+    flex: 0 0 50%;
+  }
+}
+@media (min-width: 64em) {
+  .feature__item {
+    flex: 1;
+  }
 }/*# sourceMappingURL=style.css.map */
