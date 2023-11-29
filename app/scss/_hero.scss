@@ -5,6 +5,7 @@
     @include breakpoints-up(large) {
       display: flex;
       align-items: center;
+      overflow-x: hidden;
     }
   }
 
