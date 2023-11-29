@@ -309,7 +309,6 @@ button:hover::before,
   .hero .container {
     display: flex;
     align-items: center;
-    overflow-x: hidden;
   }
 }
 .hero__image {
