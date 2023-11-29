@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/OnTheHook/new-landing-page)
-- Live Site URL: [Live](https://main--darling-mousse-ba8f3e.netlify.app/)
+- Live Site URL: [Live](https://darling-mousse-ba8f3e.netlify.app/)
 
 ## My process
 
